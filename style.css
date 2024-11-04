@@ -1,4 +1,4 @@
-/* Variables globales */
+
 :root {
     --primary-color: #007bff;
     --secondary-color: #6c757d;
@@ -12,20 +12,20 @@
     --transition-duration: 0.3s;
 }
 
-/* Estilos generales */
+
 body {
     background-color: var(--background-color);
     color: var(--text-color);
 }
 
-/* Card de comentarios */
+
 .comment-card {
     margin-bottom: 20px;
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
 }
 
-/* Comentarios */
+
 .comentario {
     background: var(--card-background);
     border-radius: var(--border-radius);
@@ -53,7 +53,7 @@ body {
     margin-top: 10px;
 }
 
-/* Mensajes flotantes */
+
 .mensaje-flotante {
     position: fixed;
     top: 20px;
@@ -61,7 +61,7 @@ body {
     z-index: 1050;
 }
 
-/* Spinner de carga */
+
 .spinner-container {
     display: flex;
     justify-content: center;
