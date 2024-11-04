@@ -3,7 +3,6 @@ REATE DATABASE IF NOT EXISTS nuevaData;
 CREAR BASE DE DATOS SI NO EXISTE nuevaData;
 USE nuevaData;
 
--- Crear la tabla de comentarios
 CREATE TABLE IF NOT EXISTS comentarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre NVARCHAR(100) NOT NULL,
